@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <link href="./css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <ul class="nav-list" id="nav">
+    <li class="nav-list-item"><a class="nav-link" href="./index.html">Main</a></li>
+    <li class="nav-list-item"><a class="nav-link" href="./1-timer.html">Timer</a></li>
+    <li class="nav-list-item"><a class="nav-link" href="./2-snackbar.html">Snackbar</a></li>
+  </ul>
+
+  <main id="main">
+    <div class="container">
+      <label for="datetime-picker"></label>
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./js/1-timer.js" type="module"></script>
+</body>
+
+</html>
